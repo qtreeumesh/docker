@@ -3,5 +3,3 @@ redis
 new
 another
 AWS
-test
-new1
