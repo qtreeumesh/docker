@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  tomcat:
+    build: .
+    ports:
+      - "8080:5000"
+  nginx:
+    image: "nginx:latest"
+    command: bash -c "sudo systemctl start nginx"
